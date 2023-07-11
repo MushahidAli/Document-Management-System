@@ -2,8 +2,8 @@ import { useState, useRef, useEffect } from 'react'
 import Modal from 'react-modal'
 import axios from 'axios'
 import { domain } from '../../Api_Endpoint/Util'
-import Edit from '../../../assets/images/Edit.png'
-import Delete from '../../../assets/images/Delete.png'
+import Edit from '../../../assets/images/edit.png'
+import Delete from '../../../assets/images/delete.png'
 import './Designation.css'
 
 const customStyles = {
