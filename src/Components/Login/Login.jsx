@@ -44,7 +44,7 @@ export default function Login() {
 
     return (<div className='mainLogin'>
         <div className='loginCard'>
-            <h3>Arizona Document<br />Management System</h3><br />
+            <h3>Document<br />Management System</h3><br />
             <h4 className='d-flex justify-content-between'>
                 <div>Login</div>
                 <div><a className='text-decoration-none' href="">Forgot password?</a></div>
