@@ -1,0 +1,41 @@
+.mainLogin {
+    width: auto;
+    height: 100vh;
+    text-align: center;
+    background-image: url('./src/assets/images/backgroundLogin.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.loginCard {
+    transform: translate(75%,15vh);
+    border-radius: 16px;
+    width: 40vw;
+    font-weight: bold;
+    background-color: white;
+    padding: 50px;
+}
+
+.authFail {
+    background-color: rgb(136, 26, 26);
+    color: white;
+}
+
+input, select {
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    border: 0;
+    border-radius: 10px !important;
+    color: white;
+    background-color: rgb(46, 46, 88);
+    padding: 10px;
+    outline: none;
+}

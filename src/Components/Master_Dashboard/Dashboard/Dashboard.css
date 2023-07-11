@@ -1,0 +1,100 @@
+.dashboardStart {
+    background-color: rgba(242, 242, 242, 1);
+}
+
+.mainDashboard {
+    position: absolute;
+    top: 1%;
+    left: 22%;
+    width: auto;
+}
+
+.navLinkColor {
+    background-color: white !important;
+}
+
+ul li {
+    padding-bottom: 15px;
+}
+
+ul li a span {
+    color: black;
+}
+
+ul li a img {
+    mix-blend-mode: multiply;
+}
+
+a {
+    cursor: pointer;
+}
+
+.title {
+    width: 10%;
+}
+
+.headerIcons {
+    position: relative;
+    left: 45vw;
+}
+
+.headerIcons img {
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+.components {
+    position: absolute;
+    top: 20vh;
+}
+
+.box {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box p {
+    text-align: center;
+}
+
+.dashboardChild {
+    width: 100%;
+}
+
+progress {
+    height: 10px !important;
+    border-radius: 10px !important;
+    height: 4px !important;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #E5ECF6;
+    border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #040c36;
+    border-radius: 10px;
+}
+
+.box .boxSpan {
+    float: right;
+}
+
+.box p {
+    float: right;
+}
+
+.box progress {
+    width: 400px;
+}
+
+.theadMaster th {
+    background-color: rgb(54, 197, 253) !important;
+    color: white !important;
+}
+
+.table td {
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+.doc_library {
+    mix-blend-mode: multiply;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    grid-gap: 10px;
+}
+
+.doc_library_item {
+    cursor: pointer;
+}

@@ -1,0 +1,81 @@
+.folderBreadcrumb {
+    background: white;
+    width: 40vw;
+    padding: 10px;
+}
+
+.folderBreadcrumb b {
+    color: #3dc3ef;
+}
+
+.selectMyTagShift {
+    width: 20vw;
+    border: 0;
+    border-radius: 4px;
+    padding: 13px !important;
+    color: #3dc3ef;
+    background-color: white;
+    padding: 10px;
+    outline: none;
+}
+
+.selectMultimedia {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.documents {
+    mix-blend-mode: multiply;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+}
+
+.documents b {
+    color: black;
+}
+
+.document_item {
+    border: 1px solid rgb(204, 201, 201);
+    position: relative;
+    border-radius: 10px;
+    padding: 5px;
+    width: 200px;
+    height: 220px;
+    background-image: url('../../../assets/images/docFileBackground.png');
+    cursor: pointer;
+}
+
+.document_item_2 {
+    border: 1px solid rgb(204, 201, 201);
+    position: relative;
+    border-radius: 10px;
+    padding: 5px;
+    width: 200px;
+    height: 220px;
+    background-image: url('../../../assets/images/imgFileBackground.png');
+    cursor: pointer;
+}
+
+.document_item_3 {
+    border: 1px solid rgb(204, 201, 201);
+    position: relative;
+    border-radius: 10px;
+    padding: 5px;
+    width: 200px;
+    height: 220px;
+    background-image: url('../../../assets/images/videoFileBackground.png');
+    cursor: pointer;
+}
+
+.document_item_detail {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 1.5px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+}

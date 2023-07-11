@@ -1,0 +1,26 @@
+.heading {
+    font-weight: bolder;
+    color: darkblue;
+}
+
+.sampleDocumentFile {
+    padding: 20px;
+    width: 50vw;
+    background-color: white;
+}
+
+.verticalLeap {
+    position: absolute;
+    top: 0;
+    right: -300px;
+}
+
+.detail-comment-container {
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.detail-comment-container ul li {
+    font-size: 10px;
+}
