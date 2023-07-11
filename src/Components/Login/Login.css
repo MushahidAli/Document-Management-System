@@ -2,7 +2,7 @@
     width: auto;
     height: 100vh;
     text-align: center;
-    background-image: url('./src/assets/images/backgroundLogin.png');
+    background-image: url('images/backgroundLogin.png');
     background-size: cover;
     background-attachment: fixed;
 }
